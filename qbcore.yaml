@@ -448,6 +448,11 @@ tasks:
     ref: main
     src: https://github.com/MrEvilGamer/qb-tattooshop
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-hud-redux
+    ref: master
+    src: https://github.com/misterunsafe/qb-hud-redux
+
   # Unzip Files
   - action: unzip
     dest: ./resources/[standalone]
