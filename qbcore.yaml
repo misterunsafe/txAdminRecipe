@@ -141,11 +141,6 @@ tasks:
     dest: ./resources/[qb]/qb-ifruitstore
     ref: main
     src: https://github.com/qbcore-framework/qb-ifruitstore
-    
-  - action: download_github
-    dest: ./resources/[qb]/qb-hud
-    ref: main
-    src: https://github.com/qbcore-framework/qb-hud
 
   - action: download_github
     dest: ./resources/[qb]/qb-bossmenu
@@ -450,7 +445,8 @@ tasks:
 
   - action: download_github
     dest: ./resources/[qb]/qb-hud-redux
-    src: https://github.com/Kurosar/qb-hud-redux/tree/master/qb-hud-redux
+       ref: master/qb-hud-redux
+    src: https://github.com/Kurosar/qb-hud-redux/
 
   - action: download_github
     dest: ./resources/[qb]/qb-tattooshop
