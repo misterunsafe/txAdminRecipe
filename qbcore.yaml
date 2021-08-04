@@ -566,3 +566,9 @@ tasks:
 
   - action: remove_path
     path: ./resources/[fivem]/[gamemodes]/[maps]
+
+  - action: remove_path
+    path: ./resources/[qb]/qb-smallresources/cruise.lua
+
+  - action: remove_path
+    path: ./resources/[qb]/qb-smallresources/seatbelt.lua    
