@@ -557,5 +557,3 @@ tasks:
 
   - action: remove_path
     path: ./resources/[fivem]/[gamemodes]/[maps]
-
-
