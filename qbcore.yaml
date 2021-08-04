@@ -275,7 +275,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-smallresources
     ref: main
-    src: https://github.com/qbcore-framework/qb-smallresources
+    src: https://github.com/misterunsafe/qb-smallresources
 
   - action: download_github
     dest: ./resources/[qb]/qb-recyclejob
@@ -562,9 +562,3 @@ tasks:
 
   - action: remove_path
     path: ./resources/[fivem]/[gamemodes]/[maps]
-
-  - action: remove_path
-    path: ./resources/[qb]/qb-smallresources/cruise.lua
-
-  - action: remove_path
-    path: ./resources/[qb]/qb-smallresources/seatbelt.lua    
