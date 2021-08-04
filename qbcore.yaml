@@ -444,6 +444,11 @@ tasks:
     src: https://github.com/qbcore-framework/qb-interior
 
   - action: download_github
+    dest: ./resources/[qb]/qb-hud-redux
+    ref: master
+    src: https://github.com/Kurosar/qb-hud-redux/tree/master/qb-hud-redux
+
+  - action: download_github
     dest: ./resources/[qb]/qb-tattooshop
     ref: main
     src: https://github.com/MrEvilGamer/qb-tattooshop    
