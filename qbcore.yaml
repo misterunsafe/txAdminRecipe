@@ -143,11 +143,6 @@ tasks:
     src: https://github.com/qbcore-framework/qb-ifruitstore
     
   - action: download_github
-    dest: ./resources/[qb]/qb-hud
-    ref: main
-    src: https://github.com/qbcore-framework/qb-hud
-
-  - action: download_github
     dest: ./resources/[qb]/qb-bossmenu
     ref: main
     src: https://github.com/qbcore-framework/qb-bossmenu
@@ -448,6 +443,19 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-interior
 
+  # Unsafe resources Edit
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-hud-redux
+    ref: master
+    src: https://github.com/Kurosar/qb-hud-redux/tree/master/qb-hud-redux 
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-tattooshop
+    ref: main
+    src: https://github.com/MrEvilGamer/qb-tattooshop 
+    
+
   # Unzip Files
   - action: unzip
     dest: ./resources/[standalone]
@@ -540,10 +548,8 @@ tasks:
   - action: remove_path
     path: ./resources/[fivem]/[gameplay]/chat-theme-gtao
 
-
   - action: remove_path
     path: ./resources/[fivem]/[gameplay]/[examples]
-
 
   - action: remove_path
     path: ./resources/[fivem]/[system]/sessionmanager-rdr3
@@ -551,12 +557,17 @@ tasks:
   - action: remove_path
     path: ./resources/[fivem]/[system]/runcode
 
-
   - action: remove_path
     path: ./resources/[fivem]/[system]/rconlog
 
   - action: remove_path
     path: ./resources/[fivem]/[gamemodes]/[maps]
 
+  # Unsafe resources remove
 
+    - action: remove_path
+    path: ./resources/[qb]/[qb-smallresources]/cruise.lua
+
+    - action: remove_path
+    path: ./resources/[qb]/[qb-smallresources]/seatbelt.lua
 
