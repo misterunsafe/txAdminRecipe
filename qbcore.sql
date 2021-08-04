@@ -196,6 +196,7 @@ CREATE TABLE IF NOT EXISTS `players` (
   `gang` text DEFAULT NULL,
   `position` text NOT NULL,
   `metadata` text NOT NULL,
+  `tattoos` longtext DEFAULT NULL,
   `inventory` longtext DEFAULT NULL,
   `last_updated` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   PRIMARY KEY (`id`),
