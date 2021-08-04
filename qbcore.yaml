@@ -11,7 +11,7 @@ tasks:
   #  Download Files
 
   - action: download_github
-    src: https://github.com/qbcore-framework/txAdminRecipe
+    src: https://github.com/misterunsafe/txAdminRecipe
     ref: main
     dest: ./tmp/qbcore
     
