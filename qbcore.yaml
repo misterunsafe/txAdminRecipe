@@ -570,5 +570,3 @@ tasks:
 
     - action: remove_path
     path: ./resources/[qb]/[qb-smallresources]/seatbelt.lua
-
-
