@@ -448,6 +448,11 @@ tasks:
     ref: main
     src: https://github.com/qbcore-framework/qb-interior
 
+  - action: download_github
+    dest: ./resources/[qb]/qb-tattooshop
+    ref: main
+    src: https://github.com/MrEvilGamer/qb-tattooshop
+
   # Unzip Files
   - action: unzip
     dest: ./resources/[standalone]
