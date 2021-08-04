@@ -1,9 +1,9 @@
 $engine: 3
 $onesync: on
-name: QBCore Framework Build
+name: Unsafe QBCore Framework Build
 version: 1.3.0
-author: JericoFx & Kakarot & Mojito & Hamy
-description: Complete RP Server For FiveM
+author: JericoFx & Kakarot & Mojito & Hamy (Mister Unsafe Edit)
+description: Mister Unsafe'lab
 
 tasks:
   
